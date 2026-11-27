@@ -249,25 +249,13 @@ optimizer = optim.Adam(
 | 模型保存 | 成功 |
 | 模型文件 | lenet5_best.pth |
 
-### 训练 Loss 曲线
+### LeNet-5 Loss 曲线
 
-【插图位置 1：LeNet-5 Training and Testing Loss】
+![图02 LeNet-5 Loss 曲线](images/图02_LeNet5_Loss曲线.png)
 
-上传原始 Loss 曲线，文件名：
+### LeNet-5 Accuracy 曲线
 
-`lenet5_loss_curve.png`
-
-![LeNet-5 Loss Curve](images/lenet5_loss_curve.png)
-
-### 训练 Accuracy 曲线
-
-【插图位置 2：LeNet-5 Training and Testing Accuracy】
-
-上传原始 Accuracy 曲线，文件名：
-
-`lenet5_accuracy_curve.png`
-
-![LeNet-5 Accuracy Curve](images/lenet5_accuracy_curve.png)
+![图03 LeNet-5 Accuracy 曲线](images/图03_LeNet5_Accuracy曲线.png)
 
 ## 2.6 随机图片预测
 
@@ -851,23 +839,11 @@ VGG Parameters: 9231114
 
 ### VGG Accuracy 曲线
 
-【插图位置 3：VGG Training and Testing Accuracy】
-
-文件名：
-
-`vgg_accuracy_curve.png`
-
-![VGG Accuracy Curve](images/vgg_accuracy_curve.png)
+![图09 VGG Accuracy 曲线](images/图09_VGG_Accuracy曲线.png)
 
 ### VGG Loss 曲线
 
-【插图位置 4：VGG Training and Testing Loss】
-
-文件名：
-
-`vgg_loss_curve.png`
-
-![VGG Loss Curve](images/vgg_loss_curve.png)
+![图10 VGG Loss 曲线](images/图10_VGG_Loss曲线.png)
 
 ## 4.8 各类别准确率统计
 
@@ -886,15 +862,9 @@ VGG Parameters: 9231114
 | ship | 911 | 91.10% |
 | truck | 914 | 91.40% |
 
-### VGG 各类别准确率柱状图
+### VGG 各类别准确率统计
 
-【插图位置 5：VGG Accuracy for Each CIFAR-10 Class】
-
-文件名：
-
-`vgg_class_accuracy.png`
-
-![VGG Class Accuracy](images/vgg_class_accuracy.png)
+当前 `week02/images` 目录中没有单独上传 VGG 各类别准确率柱状图，因此本节保留上方实际测试数据表格和文字分析，不引用不存在的图片。
 
 **结果分析：**
 
@@ -1163,23 +1133,11 @@ ResNet18 Parameters: 11173962
 
 ### ResNet18 Accuracy 曲线
 
-【插图位置 6：ResNet18 Training and Testing Accuracy】
-
-文件名：
-
-`resnet18_accuracy_curve.png`
-
-![ResNet18 Accuracy Curve](images/resnet18_accuracy_curve.png)
+![图13 ResNet18 Accuracy 曲线](images/图13_ResNet18_Accuracy曲线.png)
 
 ### ResNet18 Loss 曲线
 
-【插图位置 7：ResNet18 Training and Testing Loss】
-
-文件名：
-
-`resnet18_loss_curve.png`
-
-![ResNet18 Loss Curve](images/resnet18_loss_curve.png)
+![图14 ResNet18 Loss 曲线](images/图14_ResNet18_Loss曲线.png)
 
 ## 5.8 各类别准确率统计
 
@@ -1198,13 +1156,7 @@ ResNet18 Parameters: 11173962
 
 ### ResNet18 各类别准确率柱状图
 
-【插图位置 8：ResNet18 Accuracy for Each CIFAR-10 Class】
-
-文件名：
-
-`resnet18_class_accuracy.png`
-
-![ResNet18 Class Accuracy](images/resnet18_class_accuracy.png)
+![图15 ResNet18 各类别准确率](images/图15_ResNet18_类别准确率.png)
 
 **结果分析：**
 
